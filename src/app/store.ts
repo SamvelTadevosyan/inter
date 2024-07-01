@@ -4,7 +4,7 @@ import { actorsTableSlice } from '../features/actorsTable/actorsTableSlice'
 
 const store = configureStore({
     reducer: {
-        userData: actorsTableSlice.reducer,
+        actorsData: actorsTableSlice.reducer,
     },
 })
 export type RootState = ReturnType<typeof store.getState>
